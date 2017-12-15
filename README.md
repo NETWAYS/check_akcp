@@ -1,7 +1,6 @@
-check_akcp
-==========
+# check\_akcp
 
-This plugin recieves the data from the akcp devices. It can check thresholds of the connected probes.
+This plugin recieves the data from akcp devices. It can check the thresholds of the connected probes.
 
 ## Usage
 
@@ -13,6 +12,7 @@ This plugin recieves the data from the akcp devices. It can check thresholds of 
 
 Options:
 
+```
 -h Display this helpmessage.
 
 -H The hostname or ipaddress of the akcp device.
@@ -26,3 +26,4 @@ Options:
 -c The critical threshold.
 
 --man Displays the complete perldoc manpage.
+```
